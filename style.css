@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h4,h5 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a{
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+img{
+    width: 100%;
+}
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100vh;
+
+}
+
+.slide1 .row .text-lower span{
+    color: dodgerblue;
+}
+
+/* navbar */
+.top-nav{
+    background-color: dodgerblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+}
+
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+
+}
+
+.social-links a{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+} 
+
+.social-links a:hover{
+    background-color: black;
+    color: dodgerblue;
+}
+
+/* navbar */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: dodgerblue;   
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item .nav-link::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: dodgerblue;
+    transition: 0.3s;
+    bottom: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active::after,
+.navbar .navbar-nav .nav-item .nav-link:hover::after{
+    width: 97%;
+}
+
+.navbar .navbar-nav .nav-link{
+    text-align: center;
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+
+/* About */
+section .aboutt{
+    background: #264653;
+}
+
+.bg-hover:hover{
+transform: scale(1.1);
+}
+
+.container .carrds{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* footer */
+footer{  
+    color: white;
+    background-color: #151414;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-logo img{
+    max-width: 50px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.social-icon span{
+    color: white;
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.social-icon a{
+    color: white;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.social-icon i{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.insta-bg{
+    background: red;
+}
+
+.git-bg{
+    background: gray;
+}
+
+.twitter-bg{
+    background: dodgerblue;
+}
+
+.linkedin-bg{
+    background: blue;
+}
+
+.footer-content{
+    position: relative;
+    z-index: 2;
+}
+
+.footer-widget ul li{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-widget ul li a{
+    color: white;
+}
+
+.footer-widget-heading h3{
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.footer-widget-heading h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 60px;
+    background-color: red;
+}
+
+.footer-bottom{
+    border-top: 1px solid white;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+/* Btn */
+
+.btn{
+    padding: 9px 10px;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.btn-brand{
+    background-color: dodgerblue;
+    color: #ffffff;
+    border-color: black;
+}
+
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: royalblue;
+}
+
+/* slide */
+
+.slide1{
+    background-image: url(./images/back.jpg);
+}
+
+
+
+/* Skills */
+.info-box{
+    display: flex;
+    align-items: center;
+}
+
+.info-box img{
+    width: 90px;
+    margin-right: 14px;
+}
+
+section .abou{
+    background: black;
+    color: #ffffff;
+}
+
+/* projects */
+
+.col-lg-4 img{
+    border-color: #092032;
+}
+
+/* project */
+.project{
+    align-items: center;
+}
+
+.project .img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.project .overlay{
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 122, 244, 0.89);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.project .social-links{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.project:hover .overlay{
+    opacity: 1;
+    top: 0;
+}
+
+.project:hover .social-links{
+    opacity: 1;
+    top: 50%;
+}
+
+.project h5{
+    margin-top: 24px;
+}
